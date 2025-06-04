@@ -20,7 +20,7 @@ class UserSeeder extends Seeder
 
         User::firstOrCreate(
             ['email' => 'heloisaoliveira@gmail.com'],
-            ['name' => 'Heloísa', 'email' => 'isaacnbgomes@gmail.com', 'password' => '123456A#']
+            ['name' => 'Heloísa', 'email' => 'heloisaoliveira@gmail.com', 'password' => '123456A#']
         );
     }
 }
