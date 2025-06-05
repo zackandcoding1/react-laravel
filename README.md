@@ -10,6 +10,11 @@
 Duplicar o arquivo ".env.example" e renomear para ".env".<br>
 Alterar no arquivo ".env" as credenciais do banco de dados.<br>
 
+Para a funcionalidade recuperar senha funcionar, é necessário alterar as credenciais do servidor de envio de e-mail no arquivo .env.<br>
+Utilizar o servidor fake durante o desenvolvimento: https://mailtrap.io<br>
+TODO:
+* Refazer a funcionalidade de recuperar senha utilizando o servidor do IAgentesmtp
+
 Instalar as dependências do PHP.
 ```
 composer install

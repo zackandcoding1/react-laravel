@@ -15,7 +15,7 @@ class UserSeeder extends Seeder
     {
         User::firstOrCreate(
             ['email' => 'isaacnbgomes@outlook.com'],
-            ['name' => 'Isaac', 'email' => 'isaacnbgomes@outlook.com', 'password' => '123456A#']
+            ['name' => 'Isaac', 'email' => 'kcazack@outlook.com', 'password' => '123456A#']
         );
 
         User::firstOrCreate(

@@ -1,8 +1,9 @@
 import InputError from '@/Components/InputError';
-import PrimaryButton from '@/Components/PrimaryButton';
+import PrimaryButton from '@/Components/Button/PrimaryButton';
 import TextInput from '@/Components/TextInput';
 import GuestLayout from '@/Layouts/GuestLayout';
-import { Head, useForm } from '@inertiajs/react';
+import { Head, Link, useForm } from '@inertiajs/react';
+import InputLabel from '@/Components/InputLabel';
 
 export default function ForgotPassword({ status }) {
     const { data, setData, post, processing, errors } = useForm({
@@ -20,9 +21,7 @@ export default function ForgotPassword({ status }) {
             <Head title="Forgot Password" />
 
             <div className="mb-4 text-sm text-gray-600 dark:text-gray-400">
-                Forgot your password? No problem. Just let us know your email
-                address and we will email you a password reset link that will
-                allow you to choose a new one.
+                Esqueceu sua senha? Sem problemas. Basta nos informar seu endereço de e-mail e nós lhe enviaremos um link de redefinição de senha que permitirá que você escolha uma nova.
             </div>
 
             {status && (
@@ -32,10 +31,14 @@ export default function ForgotPassword({ status }) {
             )}
 
             <form onSubmit={submit}>
+                <div>
+                <InputLabel htmlFor="email" value="E-mail" />
+                
                 <TextInput
                     id="email"
                     type="email"
                     name="email"
+                    placeholder="Digite o e-mail de usuário"
                     value={data.email}
                     className="mt-1 block w-full"
                     isFocused={true}
@@ -43,10 +46,18 @@ export default function ForgotPassword({ status }) {
                 />
 
                 <InputError message={errors.email} className="mt-2" />
+                </div>
 
                 <div className="mt-4 flex items-center justify-end">
+
+                    <Link
+                            href={route('login')}
+                            className="no-underline rounded-md text-sm text-gray-600 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:text-gray-400 dark:hover:text-gray-100 dark:focus:ring-offset-gray-800"
+                        >
+                            Clique aqui para acessar
+                        </Link>
                     <PrimaryButton className="ms-4" disabled={processing}>
-                        Email Password Reset Link
+                        Solicitar
                     </PrimaryButton>
                 </div>
             </form>
