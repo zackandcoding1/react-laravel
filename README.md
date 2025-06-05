@@ -31,8 +31,6 @@ php artisan migrate
 ```
 
 Cadastrar registro de teste.
-
-Executar as bibliotecas Node.js.
 ```
 php artisan db:seed
 ```
@@ -47,7 +45,12 @@ Executar as bibliotecas Node.js (terminal 2).
 npm run dev
 ```
 
-### Sequencia para criar o projeto
+Acessar no navegador a URL.
+```
+http://127.0.0.1:8000
+```
+
+### Sequência para criar o projeto
 Criar o projeto com Laravel.
 ```
 composer create-project laravel/laravel .
@@ -77,7 +80,7 @@ Instalar as dependências do Node.js.
 npm install
 ```
 
-Inicar o projeto criado com Laravel (terminal 1).
+Iniciar o projeto criado com Laravel (terminal 1).
 ```
 php -S 127.0.0.1:8000 -t public
 ```
@@ -89,7 +92,7 @@ npm run dev
 
 Acessar no navegador a URL.
 ``` 
-http://127.0.0.1:8000/
+http://127.0.0.1:8000
 ```
 
 Criar seed.
@@ -103,7 +106,6 @@ php artisan db:seed
 ```
 
 ### Como usar o GitHub
-
 Verificar a versão do GIT.
 ```
 git -v
