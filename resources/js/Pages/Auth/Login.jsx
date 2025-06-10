@@ -98,7 +98,7 @@ export default function Login({ status, canResetPassword }) {
                 </div>
 
                 <div className="ms-2 text-sm text-gray-600 dark:text-gray-400">
-                    Usuário: kcazack@outlook.com Senha: 123456A#
+                    Usuário: isaac@email.com Senha: 123456A#
                 </div>
             </form>
         </GuestLayout>

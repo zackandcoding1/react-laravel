@@ -14,13 +14,13 @@ class UserSeeder extends Seeder
     public function run(): void
     {
         User::firstOrCreate(
-            ['email' => 'kcazack@outlook.com'],
-            ['name' => 'Isaac', 'email' => 'kcazack@outlook.com', 'password' => '123456A#']
+            ['email' => 'isaac@email.com'],
+            ['name' => 'Isaac', 'email' => 'isaac@email.com', 'password' => '123456A#']
         );
 
         User::firstOrCreate(
-            ['email' => 'heloisaoliveira@gmail.com'],
-            ['name' => 'Heloísa', 'email' => 'heloisaoliveira@gmail.com', 'password' => '123456A#']
+            ['email' => 'heloisa.oliveira@email.com'],
+            ['name' => 'Heloísa', 'email' => 'heloisa.oliveira@email.com', 'password' => '123456A#']
         );
         User::firstOrCreate(
             ['email' => 'ana.souza@email.com'],
