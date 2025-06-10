@@ -1,4 +1,5 @@
-## Desenvolvendo um projeto com React+Laravel
+## Desenvolvendo um projeto CRUD com React+Laravel
+Código-fonte baseado nas vídeo-aulas do canal [Celke Cursos](https://www.youtube.com/playlist?list=PLmY5AEiqDWwAR92sj8_LuTHTHV0yN_ob_). <br>
 
 ### Requisitos
 * PHP 8.2 ou superior;
