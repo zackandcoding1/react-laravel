@@ -148,3 +148,19 @@ Enviar os commits locais para o repositório remoto.
 git push <remote> <branch>
 git push origin main
 ```
+
+### Capturas de tela do projeto
+
+![image](https://github.com/user-attachments/assets/7b7380e8-fce2-4b4d-a694-33e4e23d8c39)
+
+![image](https://github.com/user-attachments/assets/10e33f6b-8331-40cb-81b7-e452c4339e5c)
+
+![image](https://github.com/user-attachments/assets/32ea4947-d056-40dd-b9c5-33ac62e994c4)
+
+![image](https://github.com/user-attachments/assets/c5625b3a-eb48-4497-a03c-d685c7b1618d)
+
+![image](https://github.com/user-attachments/assets/40f8425f-414e-45fe-9c26-8af065fa7477)
+
+![image](https://github.com/user-attachments/assets/ad9e5147-6fa6-4e2f-b4da-220d49b880ec)
+
+![image](https://github.com/user-attachments/assets/5806a24f-bf79-4990-90f6-f38d1c702d24)
